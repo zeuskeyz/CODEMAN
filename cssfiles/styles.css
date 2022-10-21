@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Cinzel:wght@500&family=Courgette&family=Kaushan+Script&family=Roboto&display=swap');
+
+:root{
+    --header-font:'Cinzel', serif;
+    --headlet-font:'Baloo 2', cursive;
+    --standout-font:'Courgette', cursive;
+    --paragraf-font:'Roboto', sans-serif;
+    --casual-font: 'Kaushan Script', cursive;
+    --header-size: 1.5rem;
+    --headlet-size:1.2rem;
+    --paragraf-size:.95rem;
+
+
+}
+
+.navbar-brand{
+    font-family: var(--header-font);
+    font-size: var(--header-size);
+
+}
+
+.myLinkS, .motto, .headlet-heads, .btn{
+    font-family: var(--headlet-font) ;
+}
+.standOut{
+    font-family: var(--standout-font);
+}
+
+.paragraphs{
+    font-family: var(--paragraf-font);
+}
