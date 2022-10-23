@@ -29,3 +29,10 @@
 .paragraphs{
     font-family: var(--paragraf-font);
 }
+
+.body{
+    background-image: url("..//imagesfiles//background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
